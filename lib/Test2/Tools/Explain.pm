@@ -56,7 +56,6 @@ sub explain {
     local ($@, $!);
     require Data::Dumper;
 
-    warn "HERE I AM";
     return map {
         ref $_
         ? do {
