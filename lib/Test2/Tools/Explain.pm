@@ -43,12 +43,15 @@ All functions in this module are exported by default.
 
 =head2 explain( @things_to_explain )
 
-Will dump the contents of any references in a human readable format.
-Usually you want to pass this into C<note> or C<diag>.
+Will convert the contents of any references in a human readable format,
+and return them as strings.  Usually you want to pass this into C<note>
+or C<diag>.
 
 Handy for things like:
 
     is( $errors, [], 'Should have no errors' ) or diag explain( $errors );
+
+Note that C<explain> does NOT output anything.
 
 =cut
 
