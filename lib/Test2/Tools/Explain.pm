@@ -1,6 +1,6 @@
 package Test2::Tools::Explain;
 
-use 5.006;
+use 5.008001;
 use strict;
 use warnings;
 
@@ -10,11 +10,11 @@ Test2::Tools::Explain -- Explain tools for Perl's Test2 framework
 
 =head1 VERSION
 
-Version 0.01_01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01_01';
+our $VERSION = '0.02';
 
 use parent 'Exporter';
 
